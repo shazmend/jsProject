@@ -79,13 +79,13 @@ button:hover{
 .imgContainer{
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 .sectionImgs{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 .intro2 p {
     color: white;
@@ -117,6 +117,17 @@ button:hover{
     height: 97vh;
     width: 100%;
     animation:fade-in 1s;
+}
+.imgContainer3{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.imgSection3{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .grid{
     display: grid;
@@ -256,13 +267,13 @@ button:hover{
 .imgContainer{
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 .sectionImgs{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 .intro2 p {
     color: white;
@@ -294,6 +305,17 @@ button:hover{
     height: 97vh;
     width: 100%;
     animation:fade-in 1s;
+}
+.imgContainer3{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.imgSection3{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .grid{
     display: grid;
