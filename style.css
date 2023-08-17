@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+/* first page start */
+.container{
+    background-image: url(Background.svg);
+    width: 100%;
+    height: 101vh;
+    background-repeat: no-repeat;
+    display: fixed;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: fade-in 3s;
+}
+button{
+    border: none;
+    padding: 2vh 10vh;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: #A06BBC
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: #7e4f97;
+}
+
+/* animation */
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);     
+    }
+}
+/* first page end */
+
+
+/* seond page start */
+.container2{
+    background-image: url(Background.svg);
+    width: 100%;
+    height: 101vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+.intro2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    height: 97vh;
+    width: 100%;
+    animation:fade-in 1s;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 100%;
+}
+.imgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.sectionImgs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.intro2 p {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fade-in 1s;
+}
+.square{
+    height: 40vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 15px;
+    animation: fade-in 1s;
+}
+
+/* second page end */
+
+/* third page start */
+.intro3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    height: 97vh;
+    width: 100%;
+    animation:fade-in 1s;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+.card p{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;   
+}
+.cardSquare{
+    height: 20vh;
+    width: 40vw;
+    background-color: white;
+    border-radius: 15px;
+}
+.card button{
+    padding: 2vh 5vh;
+}
+/* third page end */
+
+/* forth page start */
+.intro4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22vh;
+    height: 97vh;
+    width: 100%;
+    animation:fade-in 1s;
+}
+input{
+    height: 7vh;
+    width: 20vw;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+.nameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+.nameContainer button{
+    padding: 1vh 2vh;
+    width: 40%;
+    font-size: large;
+}
+/* forth page end */
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+/* first page start */
+.container{
+    background-image: url(Background.svg);
+    width: 100%;
+    height: 101vh;
+    background-repeat: no-repeat;
+    display: fixed;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: fade-in 3s;
+}
+button{
+    border: none;
+    padding: 2vh 10vh;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: #A06BBC
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: #7e4f97;
+}
+
+/* animation */
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);     
+    }
+}
+/* first page end */
+
+
+/* seond page start */
+.container2{
+    background-image: url(Background.svg);
+    width: 100%;
+    height: 101vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+.intro2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    height: 97vh;
+    width: 100%;
+    animation:fade-in 1s;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 100%;
+}
+.imgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.sectionImgs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.intro2 p {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fade-in 1s;
+}
+.square{
+    height: 40vh;
+    width: 40vw;
+    background-color: white;
+    border-radius: 15px;
+    animation: fade-in 1s;
+}
+
+/* second page end */
+
+/* third page start */
+.intro3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    height: 97vh;
+    width: 100%;
+    animation:fade-in 1s;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+.card p{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;   
+}
+.cardSquare{
+    height: 20vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 15px;
+}
+.card button{
+    padding: 2vh 5vh;
+}
+/* third page end */
+
+/* forth page start */
+.intro4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22vh;
+    height: 97vh;
+    width: 100%;
+    animation:fade-in 1s;
+}
+input{
+    height: 7vh;
+    width: 20vw;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+.nameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+.nameContainer button{
+    padding: 1vh 2vh;
+    width: 40%;
+    font-size: large;
+}
+/* forth page end */
+
+}
