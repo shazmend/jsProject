@@ -21,9 +21,11 @@ let form = document.getElementById("form")
                 .then(data => {
                     console.log(data);
                     let result = document.getElementById("result")
-                    result.innerHTML = `Look at the screen, your name is now visible!`
+                    result.innerHTML = `Your name appears on the screen now!`
                 }
                 )
         })
+
+        
 
     

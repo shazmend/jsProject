@@ -22,9 +22,11 @@
             <div class="grid">
                 <div class="card">
                     <p>The player is...</p>
-                    <div class="cardSquare"></div>
+                    <div class="cardSquare" id="playerName">
+                        <p id="name"></p>
+                    </div>
                     <!--Bootstrap button-->
-                    <button type="button" class="btn btn-lg"><a href="#">Show</a></button> 
+                    <button type="button" class="btn btn-lg" onclick="randomName()">Show</button> 
                 </div>
                 <div class="card">
                     <p>The challenge is...</p>
@@ -35,6 +37,7 @@
             </div>                  
         </div>
     </div>
-    
+
+    <script src="get.js"></script>
 </body>
 </html>
