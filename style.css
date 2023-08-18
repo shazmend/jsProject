@@ -26,7 +26,8 @@ button{
     padding: 2vh 10vh;
     font-size: x-large;
     border-radius: 10px;
-    background-color: #A06BBC
+    background-color: #A06BBC;
+    color: white;
 }
 button a{
     text-decoration: none;
@@ -173,13 +174,13 @@ input{
     border-radius: 15px;
     text-align: center;
 }
-.nameContainer{
+form{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3vh;
 }
-.nameContainer button{
+form button{
     padding: 1vh 2vh;
     width: 40%;
     font-size: large;
@@ -214,7 +215,8 @@ button{
     padding: 2vh 10vh;
     font-size: x-large;
     border-radius: 10px;
-    background-color: #A06BBC
+    background-color: #A06BBC;
+    color: white;
 }
 button a{
     text-decoration: none;
@@ -361,13 +363,13 @@ input{
     border-radius: 15px;
     text-align: center;
 }
-.nameContainer{
+form{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3vh;
 }
-.nameContainer button{
+form button{
     padding: 1vh 2vh;
     width: 40%;
     font-size: large;
