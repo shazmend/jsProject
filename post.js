@@ -1,5 +1,6 @@
 let form = document.getElementById("form")
 
+//post function
         form.addEventListener("submit", function (e) {
             e.preventDefault()
             let name = document.getElementById("name").value
@@ -19,8 +20,10 @@ let form = document.getElementById("form")
                 })
                 .then(data => {
                     console.log(data);
-                    // let result = document.getElementById("result")
-                    // result.innerHTML = `<p>the title of post is ${data.name}</p>
-                    // <p> the content of post is ${data.content}</p>`
-                })
+                    let result = document.getElementById("result")
+                    result.innerHTML = `Look at the screen, your name is now visible!`
+                }
+                )
         })
+
+    

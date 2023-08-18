@@ -185,6 +185,9 @@ form button{
     width: 40%;
     font-size: large;
 }
+form p{
+    color: white;
+}
 /* forth page end */
 
 }
@@ -373,6 +376,9 @@ form button{
     padding: 1vh 2vh;
     width: 40%;
     font-size: large;
+}
+form p{
+    color: white;
 }
 /* forth page end */
 
