@@ -68,7 +68,6 @@ button:hover{
     gap: 5vh;
     height: 97vh;
     width: 100%;
-    /* animation:fade-in 1s; */
 }
 .section1{
     display: flex;
@@ -95,14 +94,12 @@ button:hover{
 .section2{
     display: flex;
     align-items: center;
-    /* animation: fade-in 1s; */
 }
 .square{
     height: 40vh;
     width: 80vw;
     background-color: white;
     border-radius: 15px;
-    /* animation: fade-in 1s; */
 }
 .names{
     display: flex;
@@ -131,7 +128,20 @@ button:hover{
 .intro2 a{
     margin-bottom: 3vh;
 }
-
+@keyframes fadeInOut {
+    0%{
+       opacity: 1;
+    }  
+    100%{
+       opacity: 0.5;
+    }   
+   }
+   .fadeInfadeOut{
+       animation: fadeInOut 0.5s infinite alternate;
+   }
+   .fadeInfadeOut2{
+       animation: fadeInOut 0.5s infinite alternate;
+   }
 /* second page end */
 
 /* third page start */
@@ -292,7 +302,6 @@ button:hover{
     gap: 5vh;
     height: 97vh;
     width: 100%;
-    /* animation:fade-in 1s; */
 }
 .section1{
     display: flex;
@@ -320,14 +329,12 @@ button:hover{
 .section2{
     display: flex;
     align-items: center;
-    /* animation: fade-in 1s; */
 }
 .square{
     height: 40vh;
     width: 40vw;
     background-color: white;
     border-radius: 15px;
-    /* animation: fade-in 1s; */
 }
 .names{
     display: flex;
