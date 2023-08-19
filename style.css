@@ -157,8 +157,8 @@ button:hover{
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10vh;
+    grid-template-rows: repeat(2,1fr);
+    gap: 5vh;
 }
 .card{
     display: flex;
@@ -176,6 +176,9 @@ button:hover{
     width: 40vw;
     background-color: white;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card button{
     padding: 2vh 5vh;

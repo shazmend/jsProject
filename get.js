@@ -10,18 +10,15 @@ fetch("https://64df452371c3335b25825c13.mockapi.io/api/v1/name")
             name.innerText=data[i].name    
             let names = document.getElementById("names")//div in html    
             names.appendChild(name);
-
             name.classList.add('name');
-
         }
     }).catch(err => {
-        console.log('====================================');
         console.log(err);
-        console.log('====================================');
     })
 }
 //call the function
 getNames()
+
 
 //reload the page using the reload icon
 function reload() {
@@ -34,15 +31,33 @@ function randomName() {
     .then(response => response.json())
     .then(data => {
         let random = Math.floor(Math.random() * data.length);
-        console.log(data[random].name);
         let name = document.getElementById("name") 
         name.innerText=data[random].name   
-        let container = document.getElementById("playerName")//div in html    
+        let container = document.getElementById("playerName")  
         container.appendChild(name);
         name.classList.add('playerName');
+
+        // localStorage.setItem("name", data[random].name )
     }).catch(err => {
-        console.log('====================================');
         console.log(err);
-        console.log('====================================');
+    })    
+}
+
+//generate random challenge from the API
+function randomChallenge() {
+    // let name = document.getElementById("name") 
+    // name.innerText=localStorage.getItem("name");
+    fetch("https://64df452371c3335b25825c13.mockapi.io/api/v1/challenge")
+    .then(response => response.json())
+    .then(data => {
+        let random = Math.floor(Math.random() * data.length);
+
+        let challenge = document.getElementById("challenge") 
+        challenge.innerText=data[random].challenge   
+        let container = document.getElementById("challenges")  
+        container.appendChild(challenge);
+        challenge.classList.add('playerName');
+    }).catch(err => {
+        console.log(err);
     })    
 }
