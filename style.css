@@ -352,6 +352,21 @@ button:hover{
 .reload button{
     background: none;
 }
+@keyframes fadeInOut {
+ 0%{
+    opacity: 1;
+ }  
+ 100%{
+    opacity: 0.5;
+ }   
+}
+.fadeInfadeOut{
+    animation: fadeInOut 0.5s infinite alternate;
+}
+.fadeInfadeOut2{
+    animation: fadeInOut 0.5s infinite alternate;
+}
+
 
 /* second page end */
 
