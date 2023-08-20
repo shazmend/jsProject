@@ -234,7 +234,32 @@ form p{
     color: white;
 }
 /* forth page end */
+.rateContainer{
+    width: 90vh;
+    height: 50vh;
+    border: 1px solid rgb(167, 180, 209);
+    border-radius: 15px ;
+    background-color: #6d8ee9;
+    margin-top: 9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+}
+.rateText{
+    text-align: center;
+    color: white;
+}
 
+.yes{
+    position: absolute;
+    left: 3%;  
+}
+.no{
+    position: absolute;
+    
+}
 }
 
 /* ------------------------------------------------------------------------------------------ */
